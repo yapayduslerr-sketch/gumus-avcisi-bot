@@ -1,0 +1,5 @@
+borsapy
+pandas
+requests
+pytz
+apscheduler

@@ -792,8 +792,8 @@ async def send_alert(type: str, message: str, ticker: Optional[str] = None):
     )
     
     if type == "TELEGRAM":
-        bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
-        chat_id = os.getenv("TELEGRAM_CHAT_ID")
+        bot_token = os.getenv("8727724989:AAGoSlqnsv7MOGrR_uHypmMzVEnu8zKKbl8")
+        chat_id = os.getenv("5023593717")
         
         if bot_token and chat_id:
             try:
